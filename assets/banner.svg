@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Artyom Buksikov — Senior Python Backend Developer</title>
+  <desc id="desc">Dark blue developer banner with a subtle diagram of API, events and data services.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.62" stop-color="#101b30"/>
+      <stop offset="1" stop-color="#142742"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39c5ef"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity=".5"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#b7c9e9" stroke-opacity=".052" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="175%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000817" flood-opacity=".30"/>
+    </filter>
+    <clipPath id="rounded">
+      <rect width="1200" height="320" rx="18"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="1120" cy="-80" r="300" fill="#2563eb" opacity=".07"/>
+    <circle cx="785" cy="380" r="280" fill="#38bdf8" opacity=".035"/>
+    <path d="M0 0H1200" stroke="#4b6e9b" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M0 319H1200" stroke="#4b6e9b" stroke-opacity=".30"/>
+    <rect x="65" y="49" width="116" height="31" rx="15.5" fill="#102a3f" stroke="#3e6e87" stroke-opacity=".7"/>
+    <circle cx="84" cy="64.5" r="4.5" fill="#67e8f9"/>
+    <text x="97" y="70" fill="#bcebf5" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="14" font-weight="600">whoami</text>
+    <text x="62" y="155" fill="#f8fbff" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-.6">Artyom Buksikov</text>
+    <rect x="65" y="176" width="62" height="4" rx="2" fill="url(#accent)"/>
+    <text x="65" y="220" fill="#a9c1dc" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="23" font-weight="500">Senior Python Backend Developer</text>
+    <text x="65" y="267" fill="#7f9bb9" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="14" letter-spacing=".8">APIs   /   ARCHITECTURE   /   DISTRIBUTED SYSTEMS</text>
+
+    <!-- Service map: one API coordinating independent back-end components -->
+    <path d="M903 154 H957 V104 H1002" stroke="url(#line)" fill="none" stroke-width="2"/>
+    <path d="M957 154 V227 H1002" stroke="url(#line)" fill="none" stroke-width="2"/>
+    <circle cx="957" cy="154" r="5" fill="#67e8f9"/>
+    <circle cx="957" cy="104" r="3" fill="#82a6ee"/>
+    <circle cx="957" cy="227" r="3" fill="#82a6ee"/>
+
+    <rect x="778" y="119" width="134" height="70" rx="12" fill="#152a43" stroke="#3da9d5" stroke-opacity=".75" filter="url(#shadow)"/>
+    <rect x="779" y="120" width="132" height="5" rx="2.5" fill="#27b5db" opacity=".5"/>
+    <circle cx="800" cy="153" r="6" fill="#22d3ee"/>
+    <text x="820" y="161" fill="#edf8ff" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="22" font-weight="700">API</text>
+
+    <rect x="1002" y="74" width="146" height="62" rx="11" fill="#1b2945" stroke="#5a72a8" stroke-opacity=".7"/>
+    <circle cx="1024" cy="105" r="5" fill="#a5b4fc"/>
+    <text x="1040" y="112" fill="#d7def7" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="18" font-weight="600">EVENTS</text>
+
+    <rect x="1002" y="197" width="146" height="62" rx="11" fill="#1b2945" stroke="#5a72a8" stroke-opacity=".7"/>
+    <circle cx="1024" cy="228" r="5" fill="#67e8f9"/>
+    <text x="1040" y="235" fill="#d7def7" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="18" font-weight="600">DATA</text>
+
+    <text x="794" y="225" fill="#64839f" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12">200 OK</text>
+    <path d="M781 239H861" stroke="#2b5870" stroke-width="2" stroke-linecap="round"/>
+    <path d="M781 249H838" stroke="#2b5870" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
